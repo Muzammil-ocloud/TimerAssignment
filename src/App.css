@@ -1,0 +1,63 @@
+.App {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 45px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 200px;
+  color: red;
+}
+.day {
+  display: grid;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: bold;
+  place-items: center;
+  height: 50px;
+  width: 100px;
+  border: 2px double green;
+}
+.hour {
+  display: grid;
+  font-size: 22px;
+  font-style: italic;
+  place-items: center;
+  height: 50px;
+  width: 100px;
+  border: 2px solid blue;
+}
+
+.minute {
+  display: grid;
+  font-size: 22px;
+  font-style: italic;
+  place-items: center;
+  height: 50px;
+  width: 100px;
+  border: 2px solid blue;
+}
+
+.second {
+  display: grid;
+  font-size: 22px;
+  place-items: center;
+  font-style: italic;
+  height: 50px;
+  width: 100px;
+  border: 2px solid blue;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  font-size: 26px;
+
+  font-weight: bold;
+}
